@@ -20,36 +20,36 @@ INSERT INTO gdlwebcamp.guests (name, surname, description, imgUrl) VALUES ('Mar�
 
 
 -- Eventos
-INSERT INTO gdlwebcamp.events (title, time, date_id, category_id, guest_id) VALUES ('Responsive Web Design',                                       '10:00:00', '1', '3', '1');
-INSERT INTO gdlwebcamp.events (title, time, date_id, category_id, guest_id) VALUES ('Flexbox',                                                     '12:00:00', '1', '3', '2');
-INSERT INTO gdlwebcamp.events (title, time, date_id, category_id, guest_id) VALUES ('HTML5 y CSS3',                                                '14:00:00', '1', '3', '3');
-INSERT INTO gdlwebcamp.events (title, time, date_id, category_id, guest_id) VALUES ('Drupal',                                                      '17:00:00', '1', '3', '4');
-INSERT INTO gdlwebcamp.events (title, time, date_id, category_id, guest_id) VALUES ('WordPress',                                                   '19:00:00', '1', '3', '5');
-INSERT INTO gdlwebcamp.events (title, time, date_id, category_id, guest_id) VALUES ('Cómo ser freelancer',                                         '10:00:00', '1', '2', '6');
-INSERT INTO gdlwebcamp.events (title, time, date_id, category_id, guest_id) VALUES ('Tecnologías del Futuro',                                      '17:00:00', '1', '2', '1');
-INSERT INTO gdlwebcamp.events (title, time, date_id, category_id, guest_id) VALUES ('Seguridad en la Web',                                         '19:00:00', '1', '2', '2');
-INSERT INTO gdlwebcamp.events (title, time, date_id, category_id, guest_id) VALUES ('Diseño UX/UI para móviles',                                   '10:00:00', '1', '1', '6');
-INSERT INTO gdlwebcamp.events (title, time, date_id, category_id, guest_id) VALUES ('AngularJS',                                                   '10:00:00', '2', '3', '1');
-INSERT INTO gdlwebcamp.events (title, time, date_id, category_id, guest_id) VALUES ('PHP y MySQL',                                                 '12:00:00', '2', '3', '2');
-INSERT INTO gdlwebcamp.events (title, time, date_id, category_id, guest_id) VALUES ('JavaScript Avanzado',                                         '14:00:00', '2', '3', '3');
-INSERT INTO gdlwebcamp.events (title, time, date_id, category_id, guest_id) VALUES ('SEO en Google',                                               '17:00:00', '2', '3', '4');
-INSERT INTO gdlwebcamp.events (title, time, date_id, category_id, guest_id) VALUES ('De Photoshop a HTML5 y CSS3',                                 '19:00:00', '2', '3', '5');
-INSERT INTO gdlwebcamp.events (title, time, date_id, category_id, guest_id) VALUES ('PHP Intermedio y Avanzado',                                   '21:00:00', '2', '3', '6');
-INSERT INTO gdlwebcamp.events (title, time, date_id, category_id, guest_id) VALUES ('Cómo crear una tienda online que venda millones en días',     '10:00:00', '2', '2', '6');
-INSERT INTO gdlwebcamp.events (title, time, date_id, category_id, guest_id) VALUES ('Los mejores lugares para encontrar trabajo',                  '17:00:00', '2', '2', '1');
-INSERT INTO gdlwebcamp.events (title, time, date_id, category_id, guest_id) VALUES ('Pasos para crear un negocio rentable ',                       '19:00:00', '2', '2', '2');
-INSERT INTO gdlwebcamp.events (title, time, date_id, category_id, guest_id) VALUES ('Aprende a programar en una mañana',                           '10:00:00', '2', '1', '3');
-INSERT INTO gdlwebcamp.events (title, time, date_id, category_id, guest_id) VALUES ('Programación Orientada a Objetos',                            '17:00:00', '2', '1', '5');
-INSERT INTO gdlwebcamp.events (title, time, date_id, category_id, guest_id) VALUES ('Laravel',                                                     '10:00:00', '3', '3', '1');
-INSERT INTO gdlwebcamp.events (title, time, date_id, category_id, guest_id) VALUES ('Crea tu propia API',                                          '12:00:00', '3', '3', '2');
-INSERT INTO gdlwebcamp.events (title, time, date_id, category_id, guest_id) VALUES ('JavaScript y jQuery',                                         '14:00:00', '3', '3', '3');
-INSERT INTO gdlwebcamp.events (title, time, date_id, category_id, guest_id) VALUES ('Creando plantillas para WordPress',                           '17:00:00', '3', '3', '4');
-INSERT INTO gdlwebcamp.events (title, time, date_id, category_id, guest_id) VALUES ('Tiendas virtuales en Magento',                                '19:00:00', '3', '3', '5');
-INSERT INTO gdlwebcamp.events (title, time, date_id, category_id, guest_id) VALUES ('Cómo hacer Marketing en línea',                               '10:00:00', '3', '2', '6');
-INSERT INTO gdlwebcamp.events (title, time, date_id, category_id, guest_id) VALUES ('¿Con qué lenguaje debo empezar?',                             '17:00:00', '3', '2', '2');
-INSERT INTO gdlwebcamp.events (title, time, date_id, category_id, guest_id) VALUES ('Frameworks y libreríaas Open Source',                         '19:00:00', '3', '2', '3');
-INSERT INTO gdlwebcamp.events (title, time, date_id, category_id, guest_id) VALUES ('Creando una App en Android en una mañana',                    '10:00:00', '3', '1', '4');
-INSERT INTO gdlwebcamp.events (title, time, date_id, category_id, guest_id) VALUES ('Creando una App en iOS en una tarde',                         '17:00:00', '3', '1', '1');
+INSERT INTO gdlwebcamp.category_events (title, time, date_id, category_id, guest_id) VALUES ('Responsive Web Design',                                       '10:00:00', '1', '3', '1');
+INSERT INTO gdlwebcamp.category_events (title, time, date_id, category_id, guest_id) VALUES ('Flexbox',                                                     '12:00:00', '1', '3', '2');
+INSERT INTO gdlwebcamp.category_events (title, time, date_id, category_id, guest_id) VALUES ('HTML5 y CSS3',                                                '14:00:00', '1', '3', '3');
+INSERT INTO gdlwebcamp.category_events (title, time, date_id, category_id, guest_id) VALUES ('Drupal',                                                      '17:00:00', '1', '3', '4');
+INSERT INTO gdlwebcamp.category_events (title, time, date_id, category_id, guest_id) VALUES ('WordPress',                                                   '19:00:00', '1', '3', '5');
+INSERT INTO gdlwebcamp.category_events (title, time, date_id, category_id, guest_id) VALUES ('Cómo ser freelancer',                                         '10:00:00', '1', '2', '6');
+INSERT INTO gdlwebcamp.category_events (title, time, date_id, category_id, guest_id) VALUES ('Tecnologías del Futuro',                                      '17:00:00', '1', '2', '1');
+INSERT INTO gdlwebcamp.category_events (title, time, date_id, category_id, guest_id) VALUES ('Seguridad en la Web',                                         '19:00:00', '1', '2', '2');
+INSERT INTO gdlwebcamp.category_events (title, time, date_id, category_id, guest_id) VALUES ('Diseño UX/UI para móviles',                                   '09:00:00', '1', '1', '6');
+INSERT INTO gdlwebcamp.category_events (title, time, date_id, category_id, guest_id) VALUES ('AngularJS',                                                   '10:00:00', '2', '3', '1');
+INSERT INTO gdlwebcamp.category_events (title, time, date_id, category_id, guest_id) VALUES ('PHP y MySQL',                                                 '12:00:00', '2', '3', '2');
+INSERT INTO gdlwebcamp.category_events (title, time, date_id, category_id, guest_id) VALUES ('JavaScript Avanzado',                                         '14:00:00', '2', '3', '3');
+INSERT INTO gdlwebcamp.category_events (title, time, date_id, category_id, guest_id) VALUES ('SEO en Google',                                               '17:00:00', '2', '3', '4');
+INSERT INTO gdlwebcamp.category_events (title, time, date_id, category_id, guest_id) VALUES ('De Photoshop a HTML5 y CSS3',                                 '19:00:00', '2', '3', '5');
+INSERT INTO gdlwebcamp.category_events (title, time, date_id, category_id, guest_id) VALUES ('PHP Intermedio y Avanzado',                                   '21:00:00', '2', '3', '6');
+INSERT INTO gdlwebcamp.category_events (title, time, date_id, category_id, guest_id) VALUES ('Cómo crear una tienda online que venda millones en días',     '10:00:00', '2', '2', '6');
+INSERT INTO gdlwebcamp.category_events (title, time, date_id, category_id, guest_id) VALUES ('Los mejores lugares para encontrar trabajo',                  '17:00:00', '2', '2', '1');
+INSERT INTO gdlwebcamp.category_events (title, time, date_id, category_id, guest_id) VALUES ('Pasos para crear un negocio rentable ',                       '19:00:00', '2', '2', '2');
+INSERT INTO gdlwebcamp.category_events (title, time, date_id, category_id, guest_id) VALUES ('Aprende a programar en una mañana',                           '10:00:00', '2', '1', '3');
+INSERT INTO gdlwebcamp.category_events (title, time, date_id, category_id, guest_id) VALUES ('Programación Orientada a Objetos',                            '17:00:00', '2', '1', '5');
+INSERT INTO gdlwebcamp.category_events (title, time, date_id, category_id, guest_id) VALUES ('Laravel',                                                     '10:00:00', '3', '3', '1');
+INSERT INTO gdlwebcamp.category_events (title, time, date_id, category_id, guest_id) VALUES ('Crea tu propia API',                                          '12:00:00', '3', '3', '2');
+INSERT INTO gdlwebcamp.category_events (title, time, date_id, category_id, guest_id) VALUES ('JavaScript y jQuery',                                         '14:00:00', '3', '3', '3');
+INSERT INTO gdlwebcamp.category_events (title, time, date_id, category_id, guest_id) VALUES ('Creando plantillas para WordPress',                           '17:00:00', '3', '3', '4');
+INSERT INTO gdlwebcamp.category_events (title, time, date_id, category_id, guest_id) VALUES ('Tiendas virtuales en Magento',                                '19:00:00', '3', '3', '5');
+INSERT INTO gdlwebcamp.category_events (title, time, date_id, category_id, guest_id) VALUES ('Cómo hacer Marketing en línea',                               '10:00:00', '3', '2', '6');
+INSERT INTO gdlwebcamp.category_events (title, time, date_id, category_id, guest_id) VALUES ('¿Con qué lenguaje debo empezar?',                             '17:00:00', '3', '2', '2');
+INSERT INTO gdlwebcamp.category_events (title, time, date_id, category_id, guest_id) VALUES ('Frameworks y libreríaas Open Source',                         '19:00:00', '3', '2', '3');
+INSERT INTO gdlwebcamp.category_events (title, time, date_id, category_id, guest_id) VALUES ('Creando una App en Android en una mañana',                    '10:00:00', '3', '1', '4');
+INSERT INTO gdlwebcamp.category_events (title, time, date_id, category_id, guest_id) VALUES ('Creando una App en iOS en una tarde',                         '17:00:00', '3', '1', '1');
 
 
 -- Tickets
@@ -57,10 +57,10 @@ INSERT INTO gdlwebcamp.tickets (price, nDates) VALUES ('30.0', 1);
 INSERT INTO gdlwebcamp.tickets (price, nDates) VALUES ('50.0', 0);
 INSERT INTO gdlwebcamp.tickets (price, nDates) VALUES ('45.0', 2);
 
-INSERT INTO gdlwebcamp.ticket_benefits (ticket_id, benefits) VALUES ('1', 'Bocadillos gratis');
-INSERT INTO gdlwebcamp.ticket_benefits (ticket_id, benefits) VALUES ('1', 'Todos los eventos');
-INSERT INTO gdlwebcamp.ticket_benefits (ticket_id, benefits) VALUES ('2', 'Bocadillos gratis');
-INSERT INTO gdlwebcamp.ticket_benefits (ticket_id, benefits) VALUES ('2', 'Todos los eventos');
-INSERT INTO gdlwebcamp.ticket_benefits (ticket_id, benefits) VALUES ('2', 'Te llevas un regalo!');
-INSERT INTO gdlwebcamp.ticket_benefits (ticket_id, benefits) VALUES ('3', 'Bocadillos gratis');
-INSERT INTO gdlwebcamp.ticket_benefits (ticket_id, benefits) VALUES ('3', 'Todos los eventos');
+INSERT INTO gdlwebcamp.ticket_benefits (ticket_id, title) VALUES ('1', 'Bocadillos gratis');
+INSERT INTO gdlwebcamp.ticket_benefits (ticket_id, title) VALUES ('1', 'Todos los eventos');
+INSERT INTO gdlwebcamp.ticket_benefits (ticket_id, title) VALUES ('2', 'Bocadillos gratis');
+INSERT INTO gdlwebcamp.ticket_benefits (ticket_id, title) VALUES ('2', 'Todos los eventos');
+INSERT INTO gdlwebcamp.ticket_benefits (ticket_id, title) VALUES ('2', 'Te llevas un regalo!');
+INSERT INTO gdlwebcamp.ticket_benefits (ticket_id, title) VALUES ('3', 'Bocadillos gratis');
+INSERT INTO gdlwebcamp.ticket_benefits (ticket_id, title) VALUES ('3', 'Todos los eventos');

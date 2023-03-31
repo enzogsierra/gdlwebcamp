@@ -16,9 +16,9 @@ import lombok.ToString;
 
 
 @Entity
-@Table(name = "events")
+@Table(name = "category_events")
 @Getter @Setter @ToString
-public class Event 
+public class CategoryEvent 
 {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -29,9 +29,6 @@ public class Event
     private String title;
 
     @ManyToOne
-    private Category category;
-
-    @ManyToOne
     private Date date;
 
     private Time time;
@@ -40,15 +37,15 @@ public class Event
     private Guest guest;
 
 
-    public Event() {
+    public CategoryEvent() {
 
     }
 
-    public Event(Integer id, String title, Category category, Date date, Guest guest) {
+    public CategoryEvent(Integer id, String title, Date date, Time time, Guest guest) {
         this.id = id;
         this.title = title;
-        this.category = category;
         this.date = date;
+        this.time = time;
         this.guest = guest;
     }
 }

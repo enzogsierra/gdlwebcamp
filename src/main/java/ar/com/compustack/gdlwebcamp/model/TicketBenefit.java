@@ -7,9 +7,14 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 import javax.validation.constraints.NotBlank;
 
+import lombok.Getter;
+import lombok.Setter;
+import lombok.ToString;
+
 
 @Entity
 @Table(name = "ticket_benefits")
+@Getter @Setter @ToString
 public class TicketBenefit 
 {
     @Id
@@ -17,5 +22,5 @@ public class TicketBenefit
     private Integer id;
 
     @NotBlank(message = "Debes ingresar una lista de beneficios separados por un '.' (punto)")
-    private String benefits;
+    private String title;
 }
