@@ -8,6 +8,7 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.ManyToOne;
+import javax.persistence.OneToMany;
 import javax.persistence.Table;
 import javax.validation.constraints.Size;
 import lombok.Getter;
@@ -30,6 +31,9 @@ public class CategoryEvent
 
     @ManyToOne
     private Date date;
+
+    @ManyToOne
+    private Category category;
 
     private Time time;
 
